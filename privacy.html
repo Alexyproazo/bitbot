@@ -1,71 +1,65 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#5865f2">
-  <title>Privacy Policy | BitBot</title>
-  <style>
-    :root{color-scheme:dark;--bg:#0d1020;--panel:#151a2e;--text:#eef0ff;--muted:#aab1cc;--accent:#8b9bff;--line:#29314e}
-    *{box-sizing:border-box}body{margin:0;background:radial-gradient(900px 500px at 80% -10%,#29336b 0%,transparent 65%),var(--bg);color:var(--text);font:16px/1.7 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
-    header{padding:58px 20px 35px;text-align:center}.logo{display:inline-grid;place-items:center;width:58px;height:58px;border-radius:18px;background:linear-gradient(135deg,#5865f2,#9b6bff);font-weight:800;font-size:25px;box-shadow:0 10px 35px #5865f255}
-    h1{font-size:clamp(2rem,5vw,3rem);line-height:1.1;margin:18px 0 8px}header p,.muted{color:var(--muted)}main{max-width:850px;margin:0 auto 70px;padding:0 20px}.card{background:#151a2eee;border:1px solid var(--line);border-radius:20px;padding:clamp(22px,5vw,42px);box-shadow:0 18px 60px #0003}
-    h2{font-size:1.2rem;margin:30px 0 8px;color:#cbd2ff}h2:first-child{margin-top:0}a{color:var(--accent)}li{margin:7px 0}.date{font-size:.9rem;color:var(--muted)}nav{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin-top:18px}nav a{text-decoration:none;border:1px solid var(--line);padding:7px 13px;border-radius:999px}
-    .notice{padding:14px 16px;border:1px solid #6c79df;border-radius:12px;background:#5865f21a;margin:18px 0}
-  </style>
-</head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#5865f2"><title>Privacy Policy | BitBot</title>
+<style>
+:root{color-scheme:dark;--bg:#0d1020;--text:#eef0ff;--muted:#aab1cc;--accent:#aab5ff;--line:#29314e}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(900px 500px at 80% -10%,#29336b 0%,transparent 65%),var(--bg);color:var(--text);font:16px/1.7 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+header{padding:55px 20px 34px;text-align:center}.logo{display:inline-grid;place-items:center;width:58px;height:58px;border-radius:18px;background:linear-gradient(135deg,#5865f2,#9b6bff);font-weight:800;font-size:25px}
+h1{font-size:clamp(2rem,5vw,3rem);line-height:1.1;margin:18px 0 8px}header p,.muted{color:var(--muted)}main{max-width:850px;margin:0 auto 70px;padding:0 20px}.card{background:#151a2eee;border:1px solid var(--line);border-radius:20px;padding:clamp(22px,5vw,42px);box-shadow:0 18px 60px #0003}
+h2{font-size:1.2rem;margin:30px 0 8px;color:#cbd2ff}h2:first-child{margin-top:0}a{color:var(--accent)}li{margin:7px 0}.date{font-size:.9rem;color:var(--muted)}
+nav{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin-top:18px}nav a{text-decoration:none;border:1px solid var(--line);padding:7px 13px;border-radius:999px}
+.notice{padding:14px 16px;border:1px solid #6c79df;border-radius:12px;background:#5865f21a;margin:18px 0}
+</style></head>
 <body>
-<header>
-  <div class="logo" aria-label="BitBot logo">B</div>
-  <h1>Privacy Policy</h1>
-  <p>How BitBot handles information when you use the Discord application.</p>
-  <nav><a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a></nav>
-</header>
+<header><div class="logo" aria-label="BitBot logo">B</div><h1>Privacy Policy</h1>
+<p>How BitBot handles information when you use the Discord moderation bot.</p>
+<nav><a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a></nav></header>
 <main><article class="card">
-  <p class="date">Last updated: October 31, 2026</p>
-  <div class="notice"><strong>Setup required before publishing:</strong> This is a template. The developer must replace every bracketed field and make sure the data, purposes, providers, and retention periods below accurately describe the live Bot. Do not publish it unchanged.</div>
+<p class="date">Last updated: October 31, 2026</p>
+<p>This Privacy Policy explains how the BitBot Discord application (“BitBot” or the “Bot”) handles information. BitBot provides moderation tools for Discord servers. The Bot does not maintain general user profiles, but it does store moderation records such as logs, warnings, and ban records.</p>
 
-  <p>This Privacy Policy explains how <strong>[DEVELOPER / ORGANIZATION NAME]</strong> (“we,” “us,” or “our”) handles information in connection with BitBot (“BitBot” or the “Service”), a Discord application. It applies when you interact with BitBot or add it to a Discord server.</p>
+<h2>1. Information BitBot processes</h2>
+<p>To carry out moderation features and keep moderation history, BitBot may process and store:</p>
+<ul>
+<li>Discord user IDs for users involved in a moderation action.</li>
+<li>Discord server IDs and, where needed, channel IDs.</li>
+<li>The moderation action taken, such as a warning, timeout, kick, or ban.</li>
+<li>The ID of the moderator or automated system that performed the action.</li>
+<li>The reason supplied for the action, if one is entered.</li>
+<li>The date and time of the action and related moderation-log details.</li>
+</ul>
+<p>BitBot does not create or store general user profiles. However, Discord IDs and moderation records can relate to identifiable Discord users, so they may constitute personal data under applicable privacy laws.</p>
 
-  <h2>1. Information we process</h2>
-  <p>Complete this list to reflect what the Bot actually receives, stores, or generates. Do not list data the Bot does not process.</p>
-  <ul>
-    <li><strong>Discord identifiers:</strong> [E.G. USER IDs, SERVER IDs, CHANNEL IDs — specify exactly which are processed].</li>
-    <li><strong>Commands and interactions:</strong> [E.G. COMMAND NAME, OPTIONS, INTERACTION CONTENT — explain whether message content is accessed].</li>
-    <li><strong>Server settings:</strong> [LIST CONFIGURATION OR PREFERENCE DATA STORED].</li>
-    <li><strong>Logs and diagnostics:</strong> [LIST LOG DATA, ERROR REPORTS, AND WHETHER IP ADDRESSES OR DEVICE DATA ARE COLLECTED].</li>
-    <li><strong>Other information:</strong> [DESCRIBE ANY OTHER DATA, OR DELETE THIS ITEM IF NONE].</li>
-  </ul>
+<h2>2. How information is used</h2>
+<p>Information is used to perform moderation commands, maintain warning and ban histories, display moderation logs to authorized server staff, help server administrators review moderation activity, protect the Bot from abuse, and troubleshoot operational issues.</p>
 
-  <h2>2. How we use information</h2>
-  <p>Describe the real purposes for each category of information. Examples may include responding to commands, saving server preferences, preventing abuse, troubleshooting errors, and maintaining security. <strong>[EDIT THIS SECTION TO MATCH YOUR BOT’S ACTUAL USES.]</strong></p>
+<h2>3. Access to moderation records</h2>
+<p>Moderation records are intended for use by the relevant server’s authorized moderators and administrators through the Bot’s features. Server owners and administrators are responsible for deciding who has permission to access moderation channels, commands, and records.</p>
 
-  <h2>3. Legal bases (where applicable)</h2>
-  <p>If data-protection laws such as the GDPR apply, identify the legal basis for each processing purpose. Depending on the circumstances, this may include providing the requested Service, legitimate interests such as security, consent, or compliance with a legal obligation. <strong>[MAP EACH PURPOSE TO ITS ACTUAL LEGAL BASIS AND GET APPROPRIATE ADVICE.]</strong></p>
+<h2>4. Sharing and third-party services</h2>
+<p>We do not sell personal data. Information may be processed by Discord and by the hosting or infrastructure providers used to operate BitBot. Those providers should be identified here before publication: <strong>[ADD HOSTING / DATABASE PROVIDER NAME, OR STATE THAT NO EXTERNAL PROVIDER IS USED]</strong>.</p>
+<p>Discord processes information under its own <a href="https://discord.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.</p>
 
-  <h2>4. Sharing and service providers</h2>
-  <p>We do not sell personal information. We may disclose information to providers that help us host, operate, secure, or monitor BitBot, where necessary for those services, and where required by law or to protect rights and safety. List the providers that can access data and what they do: <strong>[PROVIDER NAMES, PURPOSES, AND LINKS TO THEIR PRIVACY POLICIES]</strong>.</p>
-  <p>Discord also processes information under its own <a href="https://discord.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.</p>
+<h2>5. Retention and deletion</h2>
+<p>Moderation logs, warning records, and ban records are kept for the period needed to provide moderation history to the server. The actual retention period and deletion method depend on how BitBot is configured. Before publishing, specify the real rule here: <strong>[STATE HOW LONG RECORDS ARE KEPT AND HOW A SERVER ADMIN CAN REQUEST OR PERFORM DELETION]</strong>.</p>
 
-  <h2>5. Data retention and deletion</h2>
-  <p>Explain how long each category of data is kept, what determines the period, and how it is deleted. <strong>[INSERT ACTUAL RETENTION PERIODS AND DELETION PROCESS.]</strong> If users or server administrators can request deletion, explain how they can do so: <strong>[INSERT CONTACT OR COMMAND / SUPPORT PROCESS].</strong></p>
+<h2>6. Your privacy rights</h2>
+<p>Depending on applicable law and your location, you may have rights to request access to, correction of, or deletion of personal data, or to object to or restrict certain processing. To make a privacy request, contact the Bot operator using the contact details below. You may also have the right to complain to your local data-protection authority.</p>
 
-  <h2>6. International transfers</h2>
-  <p>If information is stored or accessed outside the European Economic Area or your users’ country, identify the countries or regions and the safeguards used where legally required. <strong>[DESCRIBE ACTUAL HOSTING LOCATIONS AND TRANSFER SAFEGUARDS, OR REMOVE IF NOT APPLICABLE.]</strong></p>
+<h2>7. Children’s privacy</h2>
+<p>BitBot is a moderation tool for Discord communities and is not intended to collect information from children in a way that violates applicable law. If you have a concern about information processed by BitBot, contact the operator below.</p>
 
-  <h2>7. Your privacy rights</h2>
-  <p>Depending on where you live and applicable law, you may have rights to request access, correction, deletion, restriction, objection, or a copy of certain information, and to withdraw consent where processing is based on consent. To make a request, contact <strong>[PRIVACY CONTACT EMAIL]</strong>. You may also have the right to complain to your local data-protection authority.</p>
+<h2>8. Security</h2>
+<p>Reasonable technical and organizational measures should be used to protect moderation records against unauthorized access, alteration, or loss. No online service can guarantee absolute security. The operator should keep Bot credentials and database access restricted to authorized people.</p>
 
-  <h2>8. Children’s privacy</h2>
-  <p>BitBot is not intended to collect personal information from children in violation of applicable law. If you believe a child has provided personal information to us in a way that is not permitted, contact <strong>[PRIVACY CONTACT EMAIL]</strong> so we can review the request.</p>
+<h2>9. Changes to this Policy</h2>
+<p>This Policy may be updated when BitBot’s features or data practices change. The date at the top will be updated when a new version is published.</p>
 
-  <h2>9. Security</h2>
-  <p>We use <strong>[DESCRIBE REAL, REASONABLE SECURITY MEASURES]</strong> to help protect information. No method of storage or transmission is completely secure, and we cannot guarantee absolute security.</p>
-
-  <h2>10. Changes to this Policy</h2>
-  <p>We may update this Policy when the Service or our data practices change. We will revise the date above and take reasonable steps to communicate significant changes.</p>
-
-  <h2>11. Contact</h2>
-  <p>For privacy questions or requests, contact: <strong>[PRIVACY CONTACT EMAIL]</strong>. Developer / organization: <strong>[DEVELOPER / ORGANIZATION NAME]</strong>.</p>
-</article></main>
-<footer>© 2026 BitBot. All rights reserved.</footer>
+<h2>10. Contact and support</h2>
+<p>For privacy questions or requests, contact the BitBot operator at <strong>[ADD A CONTACT EMAIL OR OTHER PRIVACY CONTACT METHOD]</strong>.</p>
+<p>For general questions and support, visit the BitBot support server: <strong>[ADD YOUR SUPPORT SERVER INVITE LINK]</strong>.</p>
+<p class="muted">This policy is a template and is not legal advice. The Bot operator should ensure it accurately reflects the code, database, hosting setup, and applicable data-protection law before publishing.</p>
+</article></main><footer style="text-align:center;color:#aab1cc;padding:0 20px 35px;font-size:.9rem">© 2026 BitBot. All rights reserved.</footer>
 </body></html>
